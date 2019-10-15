@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'the-apodaca-project';
+  title = 'The Apodaca Project';
+  model = {
+    left: true,
+    middle: false,
+    right: false
+  };
 }
