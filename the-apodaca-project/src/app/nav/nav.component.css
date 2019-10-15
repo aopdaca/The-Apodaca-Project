@@ -20,9 +20,43 @@
   }
   
   .menubar {
-    width: 100%;
+    width: 80%;
     background-color: white;
   }
+
+  .menubar-name {
+    float: right;
+    height: 42px;
+    width: 20%;
+    background-color: white;
+  }
+  .menubar-name ul {
+    float: left;
+    padding-top: 15px;
+    margin-right: 10%;
+  }
+  
+  .menubar-name li {
+    float: left;
+    margin-left: 18px;
+    list-style: none;
+    padding-bottom: 7px;
+  }
+  
+  .menubar-name li a {
+    text-decoration: none;
+    color: #444;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .menubar-name li:hover {
+    border-bottom: 2px solid darkorange;
+    cursor: pointer;
+  }
+  
+ 
   
   /* .revlogo {
     width: 40%;
